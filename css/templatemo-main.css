@@ -142,49 +142,61 @@ a:hover { color: #FF0; }
   background-size: cover;
 }
 
+.parallax-projects-content {
+  width: 100%;
+  min-height: 20vh;
+  background-size: cover;
+}
 
-.baner-content {
+.dreamers-content {
   padding-top: 2vh;
   background-image: url(../img/dreamers.png);
 }
 
-.baner-content h1 {
-  /*margin-top: 0px;
-  text-align: right;
-  font-size: 128px;
-  color: #fff;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-bottom: 0px;*/
+.dreamers-content h1 {
   padding-top: 2vh;
   padding-right: 5vh;
   text-align: right;
   font-weight: 300;
   font-size: 18px;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
-.baner-content em {
-  color: #ff7d27;
+.dreamers-content img {
+  max-width: 20%;
+  height: auto;
+  cursor: pointer;
+}
+
+.dreamers-content button {
+  color: #000000;
   font-weight: 600;
   padding-left: 5vh;
   font-style: normal;
+  font-family: 'Roboto', sans-serif;
   position: absolute;
   bottom: 0;
-  padding-bottom: 8vh;
+  margin-bottom: 5vh;
+  margin-left: 3vh;
 }
 
-.project-button em{
-  color: #ff7d27;
+.project-button button{
+  color: #000000;
   font-weight: 600;
   padding-left: 5vh;
   font-style: normal;
+  font-family: 'Roboto', sans-serif;
   position: absolute;
   bottom: 0;
-  padding-bottom: 8vh;
+  margin-bottom: 5vh;
+  margin-left: 3vh;
+  position: absolute;
+  bottom: 0;
 }
 
-.baner-content span {
+.dreamers-content span {
   padding-top: 2vh;
   padding-left: 5vh;
   text-align: left;
@@ -193,13 +205,13 @@ a:hover { color: #FF0; }
   color: #fff;
 }
 
-.baner-content .primary-button {
+.dreamers-content .primary-button {
   margin-top: 15px;
 }
 
 
 
-.service-content {
+.about-content {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
@@ -210,44 +222,126 @@ a:hover { color: #FF0; }
   background-position: center center;
 }
 
-.service-content .left-text h4 {
+.about-content button {
+  color: #ffffff;
+  font-weight: 600;
+  padding-left: 5vh;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5vh;
+  margin-left: 3vh;
+}
+
+.about-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.about-content h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #000000;
+}
+
+.about-content h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #000000;
+}
+
+.about-content .left-text h4 {
   font-size: 24px;
   font-weight: 500;
   color: #fff;
+}
+
+.about-me-web-content {
+  padding-top: 2vh;
+  background-image: url(../img/about_me.png);
+}
+
+.about-me-web-content button {
+  color: #000000;
+  font-weight: 600;
+  padding-left: 5vh;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5vh;
+  margin-left: 3vh;
+}
+
+.about-me-web-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  cursor: pointer;
+}
+
+.about-me-web-content h1 {
+  padding-top: 2vh;
+  padding-right: 5vh;
+  text-align: right;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+}
+
+.all-projects-content {
+  background-image: white;
+}
+
+.all-projects-content h1 {
+  padding-top: 2vh;
+  padding-right: 5vh;
+  text-align: right;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 h4, .h4 {
   font-size: 18px;
 }
 
-.service-content .left-text .line-dec {
+.about-content .left-text .line-dec {
   width: 45px;
   height: 3px;
   background-color: #ff7d27;
   margin: 20px 0px 20px 0px;
 }
 
-.service-content .left-text p {
+.about-content .left-text p {
   color: #fff;
 }
 
-.service-content .left-text ul {
+.about-content .left-text ul {
   padding: 0;
   margin-top: 30px;
   list-style: none;
 }
 
-.service-content .left-text ul li {
+.about-content .left-text ul li {
   margin: 15px 0px;
   font-weight: 600;
   color: #fff;
 }
 
-.service-content .left-text .primary-button {
+.about-content .left-text .primary-button {
   margin: 30px 0px;
 }
 
-.service-content .service-item {
+.about-content .service-item {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 25px 30px;
   text-align: center;
@@ -255,7 +349,7 @@ h4, .h4 {
   margin-bottom: 30px;
 }
 
-.service-content .service-item .line-dec {
+.about-content .service-item .line-dec {
   width: 45px;
   height: 3px;
   background-color: #ff7d27;
@@ -264,32 +358,32 @@ h4, .h4 {
 
 
 
-.projects-content {
+.toyota-content {
   padding-top: 20vh;
   background-image: url(../img/toyota.png);
 }
 
-.projects-content .item img {
+.toyota-contentcontent .item img {
   width: 100%;
 }
 
-.projects-content .item {
+.toyota-contentcontent .item {
   margin: 15px;
 }
 
-.projects-content .item .text-content {
+.toyota-contentcontent .item .text-content {
   background-color: #fff;
   text-align: center;
   padding: 20px;
 }
 
-.projects-content .item .text-content h4 {
+.toyota-contentcontent .item .text-content h4 {
   margin-top: 0px;
   font-size: 19px;
   font-weight: 600;
 }
 
-.projects-content .item .text-content span {
+.toyota-contentcontent .item .text-content span {
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
@@ -316,7 +410,7 @@ h4, .h4 {
 }
 
 
-.tabs-content {
+.camper-day-content {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 8vh;
@@ -385,7 +479,7 @@ section {
 }
 
 
-.contact-content {
+.love-tags-content {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
@@ -523,42 +617,42 @@ footer em {
 
 @media (max-width: 767px){
   
-  .baner-content {
+  .dreamers-content {
     padding-top: 30vh;
   }
 
-  .baner-content h1 {
+  .dreamers-content h1 {
     font-size: 64px;
   }
 
-  .baner-content em {
+  .dreamers-content em {
   }
 
-  .baner-content span {
+  .dreamers-content span {
     font-size: 12px;
   }
 
-  .baner-content .primary-button {
+  .dreamers-content .primary-button {
     margin-top: 15px;
   }
 
-  .service-content {
+  .about-content {
     padding-top: 5vh;
     text-align: center;
   }
 
-  .service-content .left-text .line-dec {
+  .about-content .left-text .line-dec {
     width: 45px;
     height: 3px;
     background-color: #ff7d27;
     margin: 20px auto 20px auto;
   }
 
-  .service-content .left-text ul {
+  .about-content .left-text ul {
     text-align: left;
   }
 
-  .service-content .service-item {
+  .about-content .service-item {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 25px 30px;
     text-align: center;
